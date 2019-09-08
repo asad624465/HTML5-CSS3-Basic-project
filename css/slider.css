@@ -1,0 +1,27 @@
+#slider{overflow:hidden;}
+#slider figure{width:800%;
+	position:relative;
+	left:0;
+	margin:0;
+	animation: 20s slider infinite;}
+#slider figure img{float:left;
+	width:12.5%;}
+@keyframes slider{
+	0%{left:0%;}
+	8%{left:0%;}
+	13%{left:-100%;}
+	21%{left:-100%;}
+	26%{left:-200%;}
+	34%{left:-200%;}
+	39%{left:-300%;}
+	47%{left:-300%;}
+	51%{left:-400%;}
+	59%{left:-400%;}
+	64%{left:-500%;}
+	72%{left:-500%;}
+	77%{left:-600%;}
+	85%{left:-600%;}
+	90%{left:-700%;}
+	100%{left:-700%;}
+
+}
